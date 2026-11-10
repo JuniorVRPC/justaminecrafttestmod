@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "paycelebrate",
+  "version": "1.0.0",
+  "name": "Pay Celebrate",
+  "description": "Fullscreen celebration and green $1 popup when someone pays or messages $1.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.paycelebrate.PayCelebrateClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.1",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
